@@ -1,0 +1,23 @@
+{
+  "Outputs" : {
+    "label" : {
+      "MLFeatureShortDescription" : "Class label of top prediction"
+    },
+    "labelProbability" : {
+      "MLFeatureShortDescription" : "Prediction probabilities"
+    }
+  },
+  "Inputs" : {
+    "image" : {
+      "MLFeatureShortDescription" : "Input image"
+    }
+  },
+  "TrainingInputs" : {
+    "image" : {
+      "MLFeatureShortDescription" : "Example image"
+    },
+    "label" : {
+      "MLFeatureShortDescription" : "True label"
+    }
+  }
+}

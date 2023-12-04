@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "4543EABD-0817-4281-AB74-CA9EFE1FBF69": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "66F954D8-D3CE-4959-B985-74F112C4A7B6": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "A6677AD8-8589-4FC9-97A9-42AE9CD47A39": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "HandsEmpty.mlmodel",
+            "path": "com.apple.CoreML/HandsEmpty.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "A6677AD8-8589-4FC9-97A9-42AE9CD47A39"
+}

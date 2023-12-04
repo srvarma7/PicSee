@@ -1,0 +1,16 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "--",
+  "MLModelCreatorDefinedKey" : {
+    "target" : "label",
+    "turicreate_version" : "5.6",
+    "max_iterations" : "100",
+    "model" : "squeezenet_v1.1",
+    "coremltoolsVersion" : "3.1",
+    "version" : "1",
+    "type" : "ImageClassifier",
+    "features" : "image"
+  },
+  "MLModelAuthorKey" : "--",
+  "MLModelLicenseKey" : "--"
+}

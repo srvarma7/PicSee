@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		E526D4CF2B144335002E2CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4CE2B144335002E2CD3 /* AppDelegate.swift */; };
 		E526D4D12B144335002E2CD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4D02B144335002E2CD3 /* SceneDelegate.swift */; };
-		E526D4D32B144335002E2CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4D22B144335002E2CD3 /* ViewController.swift */; };
+		E526D4D32B144335002E2CD3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4D22B144335002E2CD3 /* MainViewController.swift */; };
 		E526D4D62B144335002E2CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E526D4D42B144335002E2CD3 /* Main.storyboard */; };
 		E526D4D82B144336002E2CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E526D4D72B144336002E2CD3 /* Assets.xcassets */; };
 		E526D4DB2B144336002E2CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E526D4D92B144336002E2CD3 /* LaunchScreen.storyboard */; };
+		E526D4E32B1443C1002E2CD3 /* FaceDetectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4E22B1443C1002E2CD3 /* FaceDetectorVC.swift */; };
+		E526D4E82B14731D002E2CD3 /* HandskNN.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = E526D4E62B14731D002E2CD3 /* HandskNN.mlpackage */; };
+		E526D4ED2B147A06002E2CD3 /* HandsEmpty.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = E526D4EC2B147A06002E2CD3 /* HandsEmpty.mlpackage */; };
+		E526D4EF2B14A48E002E2CD3 /* PersonTrainingSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4EE2B14A48E002E2CD3 /* PersonTrainingSet.swift */; };
+		E526D4F22B14A5B7002E2CD3 /* HandskNN+ImageConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4F12B14A5B7002E2CD3 /* HandskNN+ImageConstraint.swift */; };
+		E526D4F42B14A5DA002E2CD3 /* HandskNN+Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4F32B14A5DA002E2CD3 /* HandskNN+Prediction.swift */; };
+		E526D4F62B14A60A002E2CD3 /* HandskNN+Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4F52B14A60A002E2CD3 /* HandskNN+Updating.swift */; };
+		E526D4F82B14A725002E2CD3 /* ModelUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4F72B14A725002E2CD3 /* ModelUpdater.swift */; };
+		E5D84A622B19996200EDED35 /* DeepLook in Frameworks */ = {isa = PBXBuildFile; productRef = E5D84A612B19996200EDED35 /* DeepLook */; };
+		E5D84A642B199DFA00EDED35 /* FaceComapareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D84A632B199DFA00EDED35 /* FaceComapareVC.swift */; };
+		E5D84A672B199ECC00EDED35 /* EasyPeasy in Frameworks */ = {isa = PBXBuildFile; productRef = E5D84A662B199ECC00EDED35 /* EasyPeasy */; };
+		E5D84A692B19A12800EDED35 /* AllImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D84A682B19A12800EDED35 /* AllImagesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E526D4CB2B144335002E2CD3 /* PicSee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicSee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E526D4CE2B144335002E2CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E526D4D02B144335002E2CD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E526D4D22B144335002E2CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E526D4D22B144335002E2CD3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E526D4D52B144335002E2CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E526D4D72B144336002E2CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E526D4DA2B144336002E2CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E526D4DC2B144336002E2CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E526D4E22B1443C1002E2CD3 /* FaceDetectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorVC.swift; sourceTree = "<group>"; };
+		E526D4E62B14731D002E2CD3 /* HandskNN.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = HandskNN.mlpackage; sourceTree = "<group>"; };
+		E526D4EC2B147A06002E2CD3 /* HandsEmpty.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = HandsEmpty.mlpackage; sourceTree = "<group>"; };
+		E526D4EE2B14A48E002E2CD3 /* PersonTrainingSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTrainingSet.swift; sourceTree = "<group>"; };
+		E526D4F12B14A5B7002E2CD3 /* HandskNN+ImageConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandskNN+ImageConstraint.swift"; sourceTree = "<group>"; };
+		E526D4F32B14A5DA002E2CD3 /* HandskNN+Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandskNN+Prediction.swift"; sourceTree = "<group>"; };
+		E526D4F52B14A60A002E2CD3 /* HandskNN+Updating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandskNN+Updating.swift"; sourceTree = "<group>"; };
+		E526D4F72B14A725002E2CD3 /* ModelUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUpdater.swift; sourceTree = "<group>"; };
+		E5D84A632B199DFA00EDED35 /* FaceComapareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceComapareVC.swift; sourceTree = "<group>"; };
+		E5D84A682B19A12800EDED35 /* AllImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllImagesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D84A622B19996200EDED35 /* DeepLook in Frameworks */,
+				E5D84A672B199ECC00EDED35 /* EasyPeasy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +82,47 @@
 			children = (
 				E526D4CE2B144335002E2CD3 /* AppDelegate.swift */,
 				E526D4D02B144335002E2CD3 /* SceneDelegate.swift */,
-				E526D4D22B144335002E2CD3 /* ViewController.swift */,
-				E526D4D42B144335002E2CD3 /* Main.storyboard */,
+				E5D5F1422B1E02F6005F733C /* ViewControllers */,
+				E526D4F02B14A58C002E2CD3 /* Model */,
+				E5D5F1432B1E0307005F733C /* Storyboards */,
 				E526D4D72B144336002E2CD3 /* Assets.xcassets */,
-				E526D4D92B144336002E2CD3 /* LaunchScreen.storyboard */,
 				E526D4DC2B144336002E2CD3 /* Info.plist */,
+				E526D4EE2B14A48E002E2CD3 /* PersonTrainingSet.swift */,
 			);
 			path = PicSee;
+			sourceTree = "<group>";
+		};
+		E526D4F02B14A58C002E2CD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E526D4EC2B147A06002E2CD3 /* HandsEmpty.mlpackage */,
+				E526D4E62B14731D002E2CD3 /* HandskNN.mlpackage */,
+				E526D4F72B14A725002E2CD3 /* ModelUpdater.swift */,
+				E526D4F12B14A5B7002E2CD3 /* HandskNN+ImageConstraint.swift */,
+				E526D4F32B14A5DA002E2CD3 /* HandskNN+Prediction.swift */,
+				E526D4F52B14A60A002E2CD3 /* HandskNN+Updating.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5D5F1422B1E02F6005F733C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E526D4D22B144335002E2CD3 /* MainViewController.swift */,
+				E5D84A682B19A12800EDED35 /* AllImagesVC.swift */,
+				E526D4E22B1443C1002E2CD3 /* FaceDetectorVC.swift */,
+				E5D84A632B199DFA00EDED35 /* FaceComapareVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5D5F1432B1E0307005F733C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E526D4D42B144335002E2CD3 /* Main.storyboard */,
+				E526D4D92B144336002E2CD3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +141,10 @@
 			dependencies = (
 			);
 			name = PicSee;
+			packageProductDependencies = (
+				E5D84A612B19996200EDED35 /* DeepLook */,
+				E5D84A662B199ECC00EDED35 /* EasyPeasy */,
+			);
 			productName = PicSee;
 			productReference = E526D4CB2B144335002E2CD3 /* PicSee.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +173,10 @@
 				Base,
 			);
 			mainGroup = E526D4C22B144335002E2CD3;
+			packageReferences = (
+				E5D84A602B19996200EDED35 /* XCRemoteSwiftPackageReference "DeepLook" */,
+				E5D84A652B199ECC00EDED35 /* XCRemoteSwiftPackageReference "EasyPeasy" */,
+			);
 			productRefGroup = E526D4CC2B144335002E2CD3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E526D4D32B144335002E2CD3 /* ViewController.swift in Sources */,
+				E526D4F82B14A725002E2CD3 /* ModelUpdater.swift in Sources */,
+				E526D4EF2B14A48E002E2CD3 /* PersonTrainingSet.swift in Sources */,
+				E526D4F22B14A5B7002E2CD3 /* HandskNN+ImageConstraint.swift in Sources */,
+				E526D4F62B14A60A002E2CD3 /* HandskNN+Updating.swift in Sources */,
+				E526D4D32B144335002E2CD3 /* MainViewController.swift in Sources */,
+				E5D84A692B19A12800EDED35 /* AllImagesVC.swift in Sources */,
+				E526D4E32B1443C1002E2CD3 /* FaceDetectorVC.swift in Sources */,
+				E526D4E82B14731D002E2CD3 /* HandskNN.mlpackage in Sources */,
+				E5D84A642B199DFA00EDED35 /* FaceComapareVC.swift in Sources */,
+				E526D4F42B14A5DA002E2CD3 /* HandskNN+Prediction.swift in Sources */,
+				E526D4ED2B147A06002E2CD3 /* HandsEmpty.mlpackage in Sources */,
 				E526D4CF2B144335002E2CD3 /* AppDelegate.swift in Sources */,
 				E526D4D12B144335002E2CD3 /* SceneDelegate.swift in Sources */,
 			);
@@ -203,7 +279,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +342,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -298,8 +374,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,8 +403,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +441,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5D84A602B19996200EDED35 /* XCRemoteSwiftPackageReference "DeepLook" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LA-Labs/DeepLook.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.4;
+			};
+		};
+		E5D84A652B199ECC00EDED35 /* XCRemoteSwiftPackageReference "EasyPeasy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nakiostudio/EasyPeasy";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5D84A612B19996200EDED35 /* DeepLook */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5D84A602B19996200EDED35 /* XCRemoteSwiftPackageReference "DeepLook" */;
+			productName = DeepLook;
+		};
+		E5D84A662B199ECC00EDED35 /* EasyPeasy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5D84A652B199ECC00EDED35 /* XCRemoteSwiftPackageReference "EasyPeasy" */;
+			productName = EasyPeasy;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E526D4C32B144335002E2CD3 /* Project object */;
 }
