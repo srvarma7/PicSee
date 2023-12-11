@@ -21,6 +21,11 @@
 		E526D4F42B14A5DA002E2CD3 /* HandskNN+Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4F32B14A5DA002E2CD3 /* HandskNN+Prediction.swift */; };
 		E526D4F62B14A60A002E2CD3 /* HandskNN+Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4F52B14A60A002E2CD3 /* HandskNN+Updating.swift */; };
 		E526D4F82B14A725002E2CD3 /* ModelUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526D4F72B14A725002E2CD3 /* ModelUpdater.swift */; };
+		E56E5B682B20310F00B03D6C /* GalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E5B672B20310F00B03D6C /* GalleryVC.swift */; };
+		E5B1A9942B26C8AE001CE557 /* DeviationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B1A9922B26C8AE001CE557 /* DeviationVC.swift */; };
+		E5B1A9952B26C8AE001CE557 /* DeviationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B1A9932B26C8AE001CE557 /* DeviationVM.swift */; };
+		E5C8FCCE2B21DB9800E9282C /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8FCCD2B21DB9800E9282C /* HeaderCell.swift */; };
+		E5C8FCD02B21DBB500E9282C /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8FCCF2B21DBB500E9282C /* GalleryCell.swift */; };
 		E5D84A622B19996200EDED35 /* DeepLook in Frameworks */ = {isa = PBXBuildFile; productRef = E5D84A612B19996200EDED35 /* DeepLook */; };
 		E5D84A642B199DFA00EDED35 /* FaceComapareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D84A632B199DFA00EDED35 /* FaceComapareVC.swift */; };
 		E5D84A672B199ECC00EDED35 /* EasyPeasy in Frameworks */ = {isa = PBXBuildFile; productRef = E5D84A662B199ECC00EDED35 /* EasyPeasy */; };
@@ -44,6 +49,11 @@
 		E526D4F32B14A5DA002E2CD3 /* HandskNN+Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandskNN+Prediction.swift"; sourceTree = "<group>"; };
 		E526D4F52B14A60A002E2CD3 /* HandskNN+Updating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandskNN+Updating.swift"; sourceTree = "<group>"; };
 		E526D4F72B14A725002E2CD3 /* ModelUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUpdater.swift; sourceTree = "<group>"; };
+		E56E5B672B20310F00B03D6C /* GalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryVC.swift; sourceTree = "<group>"; };
+		E5B1A9922B26C8AE001CE557 /* DeviationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviationVC.swift; sourceTree = "<group>"; };
+		E5B1A9932B26C8AE001CE557 /* DeviationVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviationVM.swift; sourceTree = "<group>"; };
+		E5C8FCCD2B21DB9800E9282C /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		E5C8FCCF2B21DBB500E9282C /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
 		E5D84A632B199DFA00EDED35 /* FaceComapareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceComapareVC.swift; sourceTree = "<group>"; };
 		E5D84A682B19A12800EDED35 /* AllImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllImagesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +115,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E5B1A9962B26C8EB001CE557 /* Deviation */ = {
+			isa = PBXGroup;
+			children = (
+				E5B1A9922B26C8AE001CE557 /* DeviationVC.swift */,
+				E5B1A9932B26C8AE001CE557 /* DeviationVM.swift */,
+			);
+			path = Deviation;
+			sourceTree = "<group>";
+		};
 		E5D5F1422B1E02F6005F733C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +131,10 @@
 				E5D84A682B19A12800EDED35 /* AllImagesVC.swift */,
 				E526D4E22B1443C1002E2CD3 /* FaceDetectorVC.swift */,
 				E5D84A632B199DFA00EDED35 /* FaceComapareVC.swift */,
+				E56E5B672B20310F00B03D6C /* GalleryVC.swift */,
+				E5C8FCCD2B21DB9800E9282C /* HeaderCell.swift */,
+				E5C8FCCF2B21DBB500E9282C /* GalleryCell.swift */,
+				E5B1A9962B26C8EB001CE557 /* Deviation */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -204,7 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B1A9952B26C8AE001CE557 /* DeviationVM.swift in Sources */,
 				E526D4F82B14A725002E2CD3 /* ModelUpdater.swift in Sources */,
+				E56E5B682B20310F00B03D6C /* GalleryVC.swift in Sources */,
 				E526D4EF2B14A48E002E2CD3 /* PersonTrainingSet.swift in Sources */,
 				E526D4F22B14A5B7002E2CD3 /* HandskNN+ImageConstraint.swift in Sources */,
 				E526D4F62B14A60A002E2CD3 /* HandskNN+Updating.swift in Sources */,
@@ -212,11 +237,14 @@
 				E5D84A692B19A12800EDED35 /* AllImagesVC.swift in Sources */,
 				E526D4E32B1443C1002E2CD3 /* FaceDetectorVC.swift in Sources */,
 				E526D4E82B14731D002E2CD3 /* HandskNN.mlpackage in Sources */,
+				E5B1A9942B26C8AE001CE557 /* DeviationVC.swift in Sources */,
 				E5D84A642B199DFA00EDED35 /* FaceComapareVC.swift in Sources */,
 				E526D4F42B14A5DA002E2CD3 /* HandskNN+Prediction.swift in Sources */,
+				E5C8FCD02B21DBB500E9282C /* GalleryCell.swift in Sources */,
 				E526D4ED2B147A06002E2CD3 /* HandsEmpty.mlpackage in Sources */,
 				E526D4CF2B144335002E2CD3 /* AppDelegate.swift in Sources */,
 				E526D4D12B144335002E2CD3 /* SceneDelegate.swift in Sources */,
+				E5C8FCCE2B21DB9800E9282C /* HeaderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

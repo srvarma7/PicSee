@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "deeplook",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LA-Labs/DeepLook.git",
+      "state" : {
+        "revision" : "afc601776ed98e8bf13f6bfaaf74d7f631bc24d5",
+        "version" : "0.3.4"
+      }
+    },
+    {
+      "identity" : "easypeasy",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nakiostudio/EasyPeasy",
+      "state" : {
+        "revision" : "b0028f63d47bcb32e37d8abb9cc5d5a781742a4e",
+        "version" : "1.10.0"
+      }
+    },
+    {
+      "identity" : "ladsa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LA-Labs/LADSA.git",
+      "state" : {
+        "revision" : "37b532de3571f15d28a77ecf9f59019d190dfd9c",
+        "version" : "0.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}
